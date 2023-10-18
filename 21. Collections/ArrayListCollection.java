@@ -1,7 +1,6 @@
 import java.util.ArrayList;
 import java.util.List;
 
-import javax.swing.text.html.HTMLDocument.Iterator;
 
 public class ArrayListCollection {
     public static void main(String[] args) {
