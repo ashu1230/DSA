@@ -31,6 +31,8 @@ public class LinkedListcollection {
         list2.removeLast();
         System.out.println("First And Last Ele Removed "+list2);
         System.out.println(list2);
+        list2.getFirst();
+        System.out.println(list2);
         // list1.clear();
         System.out.println(list1);
     }
