@@ -13,7 +13,7 @@ public class Main {
         list.insertLast(99);
         list.insert(100, 5);
 
-        list.insertRec(90, 6);
+        list.insertRec(98, 6);
         list.display();
         
         list.display();
