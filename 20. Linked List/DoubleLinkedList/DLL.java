@@ -1,7 +1,5 @@
 package DoubleLinkedList;
-
 public class DLL {
-
     Node head;
 
     public void insertFirst(int val){
@@ -25,8 +23,6 @@ public class DLL {
             node = node.next;
         }
         System.out.println("END");
-
-
         System.out.println("Print in Reverse");
         while(last != null){
             System.out.print(last.val + " --- ");
@@ -53,6 +49,7 @@ public class DLL {
             System.out.println("Does Not Exist");
             return;
         }
+
         Node node =new Node(val);
         node.next = p.next;
         p.next = node;
@@ -61,7 +58,6 @@ public class DLL {
             node.next.prev = node;
         }
     }
-
 
     public void insertLast(int val){
         Node node = new Node(val);
@@ -83,8 +79,6 @@ public class DLL {
         node.prev = last;
     }
 
-
-
     private class Node{
         int val;
         Node next;
@@ -98,8 +92,6 @@ public class DLL {
             this.val = val;
             this.next = next;
             this.prev = prev;
-        }
-
-        
+        }  
     }
 }
