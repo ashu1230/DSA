@@ -8,6 +8,7 @@
  *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
  * }
  */
+
 public class RotateList {
     public ListNode rotateRight(ListNode head, int k) {
         if(k <= 0 || head==null || head.next ==null){
