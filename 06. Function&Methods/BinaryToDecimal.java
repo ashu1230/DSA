@@ -12,8 +12,6 @@ public class BinaryToDecimal {
         System.out.println("Decimal of binary number:-  " + decNum);
     }
 
-
-
     public static void main(String[] args) {
         binToDec(1001);
     }
